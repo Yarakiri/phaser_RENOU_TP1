@@ -63,9 +63,9 @@ function create(){
 	player.setBounce(0.2);
 	player.body.setGravityY(000);
 	this.physics.add.collider(player,platforms);
-	pv1 = this.add.image(650,30,'pv1').setScale(1.5);
-	pv2 = this.add.image(700,30,'pv2').setScale(1.5);
-	pv3 = this.add.image(750,30,'pv3').setScale(1.5);
+	pv1 = this.add.image(630,20,'pv1').setScale(1.5);
+	pv2 = this.add.image(680,20,'pv2').setScale(1.5);
+	pv3 = this.add.image(730,20,'pv3').setScale(1.5);
 	cursors = this.input.keyboard.createCursorKeys(); 
 	
 	this.anims.create({
